@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block main %}
+<h1>Página não encontrada</h1>
+<p>Exception: {{ exception }}</p>
+<p>Desculpe mas não conseguimos encontrar a página que você está procurando</p>
+<p>OBS: Para levantar este erro estou fazendo a minha aplicação procurar por um template que não existe,
+    assim eu forço esse erro de 404</p>
+<a class="btn btn-primary" href="{% url 'persons_list' %}">Listagem de pessoas</a>
+{% endblock main %}

@@ -1,0 +1,7 @@
+SECRET_KEY='Bater-A_Cabeca-No%Teclado$E@Gerar(A)Minha+Secret_Key'
+DEBUG=True
+EMAIL_HOST = mail.meuDominio.com.br
+EMAIL_PORT = 587
+EMAIL_HOST_USER = meuEmail@meuDominio.com.br
+EMAIL_HOST_PASSWORD = minhaSenha
+EMAIL_USE_TLS = True
